@@ -1,0 +1,25 @@
+SQLite format 3@  .v�
+
+�k
+�b�tableresultsresultsCREATE TABLE results (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            scan_id INTEGER NOT NULL,
+            port INTEGER NOT NULL,
+            state TEXT NOT NULL,
+            service TEXT,
+            risk_level TEXT,
+            risk_note TEXT,
+            FOREIGN KEY (scan_id) REFERENCES scans (id)
+        )P++Ytablesqlite_sequencesqlite_sequenceCREATE TABLE sqlite_sequence(name,seq)�@�_tablescansscansCREATE TABLE scans (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            target TEXT NOT NULL,
+            resolved_ip TEXT,
+            hostname TEXT,
+            start_time TEXT,
+            end_time TEXT,
+            port_range TEXT,
+            total_open INTEGER DEFAULT 0
+        )
+��i	AA/127.0.0.1127.0.0.1127.0.0.12026-07-06T17:54:21.4859582026-07-06T17:54:21.49924320-25,80,443,8080
+��	scans
+

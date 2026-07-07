@@ -1,0 +1,7 @@
+2026-07-06 23:29:47 | INFO     | Starting scan on 127.0.0.1 (127.0.0.1) — 9 ports, 100 threads
+2026-07-06 23:29:49 | INFO     | Scan complete: 0/9 ports open in 1.01s (highest risk: INFO)
+2026-07-07 20:51:31 | INFO     | Starting scan on 127.0.0.1 (127.0.0.1) — 9 ports, 100 threads
+2026-07-07 20:51:33 | INFO     | Scan complete: 0/9 ports open in 1.01s (highest risk: INFO)
+2026-07-07 20:56:19 | INFO     | Starting scan on 192.168.0.101 (192.168.0.101) — 1 ports, 100 threads
+2026-07-07 20:56:19 | INFO     | Port 139 OPEN — NetBIOS [HIGH]
+2026-07-07 20:56:19 | INFO     | Scan complete: 1/1 ports open in 0.01s (highest risk: HIGH)
